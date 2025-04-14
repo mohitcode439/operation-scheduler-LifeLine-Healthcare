@@ -51,7 +51,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
   const navigationItems = [
     { name: "Dashboard", href: "/dashboard", icon: Home, showFor: ["admin", "user"] },
-    { name: "Schedule", href: "/dashboard/schedule", icon: Calendar, showFor: ["admin", "user"] },
+    // { name: "Schedule", href: "/dashboard/schedule", icon: Calendar, showFor: ["admin", "user"] },
     { name: "Doctors", href: "/dashboard/doctors", icon: UserCircle, showFor: ["admin", "user"] },
     { name: "Patients", href: "/dashboard/patients", icon: Users, showFor: ["admin"] },
     { name: "Operations", href: "/dashboard/operations", icon: ClipboardList, showFor: ["admin", "user"] },
